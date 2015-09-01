@@ -27,12 +27,8 @@ while 1:
 #    print c.fetchone(),
 #    print c.fetchall()
     for row in c.fetchall():
-	for i in row:
-	    x.append(i)
-	    tab.add_rows(x)
-#	for column in row:
-#	    x.append(column)
-#	tab.add_rows(x)
-	    tab.set_cols_align(['r'])
-	    tab.header(['0'], ['1']['2']['3']['4']['5']['6']['7'])
-	    print tab.draw()
+	x.append()
+    tab.addrows(x)
+    tab.set_cols_align(['r'])
+    tab.header(['0'], ['1']['2']['3']['4']['5']['6']['7'])
+    print tab.draw()
